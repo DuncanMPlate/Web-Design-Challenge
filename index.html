@@ -31,7 +31,33 @@
 </head>
 
 <body>
-
+<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="heading">Summary: Latitude vs. X</h1>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="City_Lat_vs_Temp.png" width=300px />
+            </div>
+            <div class="col-md-8">
+              <p> This project was an analysis of weather patterns relative to the equator. To fulfill this, we pulled live data from OpenWeatherMap with an API call to develop a dataset of over 500 cities around the world </p>
+            </div>
+            <div class="col-md-12">
+              <p> Once we had our dataset, we used Matplotlib to chart 4 different weather factors: Cloudiness, Maximum Temperature, Wind Speed, and Humidity. Here at this site you will find the visual results of our analysis, as well as the corresponding data.</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+        <h2 class="heading">Visualizations</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="Cloudiness.html"><img src="City_Lat_vs_Cloudiness.png" width=175px/></a>
+            <a href="Humidity.html"><img src="City_Lat_vs_Humidity.png" width=175px/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
