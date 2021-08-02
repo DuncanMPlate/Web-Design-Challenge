@@ -62,9 +62,9 @@ body {
      orientation: right;
 }
 
-.nav-link active {
+.nav-link {
      color: #ffffff;
-     orientation: right;
+     text-align: right;
 }
 
 .table-responsive-lg {
