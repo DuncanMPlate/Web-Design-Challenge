@@ -42,7 +42,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-color: #072474;
+     background-color: #4e7af3;
 }
 
 .main-layout {
@@ -56,7 +56,10 @@ body {
 .nav-item dropdown {
      orientation: right;
 }
-
+.table-responsive-lg {
+     background-color: #1a0175;
+     color: whitesmoke;
+}
 @media (max-width: 600px) {
      .table-responsive-lg {
           width: 300px
