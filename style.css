@@ -57,8 +57,14 @@ body {
      orientation: right;
 }
 
+.dropdown-menu {
+     color: #1a0175;
+     orientation: right;
+}
+
 .nav-link active {
-     color: #4e7af3;
+     color: #1a0175;
+     orientation: right;
 }
 
 .table-responsive-lg {
