@@ -42,7 +42,7 @@ body {
      font-family: 'Lato', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
-     background-color: #87850f;
+     background-color: #072474;
 }
 
 .main-layout {
@@ -53,8 +53,17 @@ body {
      max-width: 1170px;
 }
 
+.nav-item dropdown {
+     orientation: right;
+}
+
+@media (max-width: 600px) {
+     .table-responsive-lg {
+          width: 300px
+     }
+}
 a {
-     color: #1f1f1f;
+     color: #000000;
      text-decoration: none !important;
      outline: none !important;
      -webkit-transition: all .3s ease-in-out;
