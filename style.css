@@ -59,7 +59,7 @@ body {
 
 .dropdown-menu {
      color: #1a0175;
-     orientation: right;
+     text-align: right;
 }
 
 .nav-link {
